@@ -8,14 +8,14 @@
 ```javascript
 import cdFe from 'cd-fe'
 const yourDom = document.querySelector('.demo-scroll-spy')
-cdFe.functions.scrollSpy(demo, {
+cdFe.functions.scrollSpy(yourDom, {
   animation: "scale-up",
   delay: 500
 });
-demo.addEventListener("inview.scrollspy", () => {
+yourDom.addEventListener("inview.scrollspy", () => {
   console.log("进入视口");
 });
-demo.addEventListener("outview.scrollspy", () => {
+yourDom.addEventListener("outview.scrollspy", () => {
   console.log("离开视口");
 });
 ```

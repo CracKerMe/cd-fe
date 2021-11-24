@@ -36,18 +36,29 @@ In browser:
 #### Syntax
 
 ```js
-cdFe.utils.appenJs(script1, script2, ..., scriptN)
+cdFe.functions.appenJs(script1, script2, ..., scriptN)
   .then(() => {})
   .catch((err) => {})
   .finally(() => {});
 
-cdFe.utils.appenCss(link1, link2, ..., linkN)
+cdFe.functions.appenCss(link1, link2, ..., linkN)
   .then(() => {})
   .catch((err) => {})
   .finally(() => {});
+
+cdFe.functions.ColorMode
+/*
+addClass: ƒ h(e)
+getColorScheme: ƒ w()
+preference: "system"
+removeClass: ƒ (e)
+value: 'light'
+*/
 ```
 
 #### Example
+
+#### scrollSpy的使用请参考 [scrollSpy readMe](https://github.com/CracKerMe/cd-fe/blob/main/src/functions/readme.md)
 
 
 ## Browser support
