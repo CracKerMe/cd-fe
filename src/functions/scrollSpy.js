@@ -69,9 +69,11 @@ class ScrollSpy {
 }
 
 export default function ScrollSpyFn(...args) {
-  document.querySelectorAll('[data-scrollspy]').forEach((v) => {
-    const tempOption = v.getAttribute('data-scrollspy');
-    new ScrollSpy(v, new Function('getJsonValueCus', `return ${tempOption}`)());
-  });
+  if (args[0] === 'init') {
+    document.querySelectorAll('[data-scrollspy]').forEach((v) => {
+      const tempOption = v.getAttribute('data-scrollspy');
+      new ScrollSpy(v, new Function('getJsonValueCus', `return ${tempOption}`)());
+    });
+  }
   return new ScrollSpy(...args);
 }

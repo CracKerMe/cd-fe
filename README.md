@@ -36,17 +36,17 @@ In browser:
 #### Syntax
 
 ```js
-cdFe.functions.appenJs(script1, script2, ..., scriptN)
+cdFe.appenJs(script1, script2, ..., scriptN)
   .then(() => {})
   .catch((err) => {})
   .finally(() => {});
 
-cdFe.functions.appenCss(link1, link2, ..., linkN)
+cdFe.appenCss(link1, link2, ..., linkN)
   .then(() => {})
   .catch((err) => {})
   .finally(() => {});
 
-cdFe.functions.ColorMode
+cdFe.ColorMode
 /*
 addClass: ƒ h(e)
 getColorScheme: ƒ w()
@@ -59,7 +59,7 @@ value: 'light'
 #### Example
 
 #### scrollSpy的使用请参考 [scrollSpy readMe](https://github.com/CracKerMe/cd-fe/blob/main/src/functions/readme.md)
-
+[cdFe.scrollSpy 在线 demo](https://codepen.io/AWebMan/pen/eYRNrbr)
 
 ## Browser support
 浏览器兼容
@@ -69,7 +69,8 @@ value: 'light'
 - Safari (latest)
 - Opera (latest)
 - Edge (latest)
-- Internet Explorer No
+- Internet Explorer ie9+
+
 代码使用了 *Promise* / *Arrow Function* ,请确保您的环境兼容
 
 ## License

@@ -8,7 +8,7 @@
 ```javascript
 import cdFe from 'cd-fe'
 const yourDom = document.querySelector('.demo-scroll-spy')
-cdFe.functions.scrollSpy(yourDom, {
+cdFe.scrollSpy(yourDom, {
   animation: "scale-up",
   delay: 500
 });
