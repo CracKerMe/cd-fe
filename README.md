@@ -2,7 +2,7 @@
 潮点视频前端工具库
 
 > build by cdFe teamwork, goal to reduce some front-end work. hope you enjoy. please remember es6+ runtimes is required
-潮点视频前端开发，目标是降低一些业务常用的功能的重复开发 以及多处复用。需要es6及以上环境
+> 潮点视频前端开发，目标是降低一些业务常用的功能的重复开发 以及多处复用。需要es6及以上环境
 
 ## Main files
 关键文件目录
@@ -28,7 +28,7 @@ npm install cd-fe
 In browser:
 
 ```html
-<script src="/path/to/cd-fe.js"></script>
+<script src="/path/to/cd-fe.min.js"></script>
 ```
 
 ### Usage

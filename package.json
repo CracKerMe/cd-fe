@@ -1,6 +1,6 @@
 {
   "name": "cd-fe",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "潮点前端(cdfe)公用库libs",
   "main": "dist/cd-fe.js",
   "module": "dist/cd-fe.esm.js",
